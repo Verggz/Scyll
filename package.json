@@ -1,7 +1,7 @@
 {
   "name": "skyblockhyperionapi",
   "version": "1.0.0",
-  "description": "the api for the auction flipping app: Scyll",
+  "description":"The auction flipping app: Scyll",
   "main": "./build/main.js",
   "scripts": {
     "compile": "tsc",
@@ -13,8 +13,8 @@
     "nitrate": "node ./build/nitrate/Main.nitrate.js",
     "nitratedev": "tsc && node ./build/nitrate/Main.nitrate.js"
   },
-  "author": "Revoltings",
-  "license": "ISC",
+  "author": "penguindetox",
+  "license": "MIT",
   "devDependencies": {
     "@types/chart.js": "^2.9.34",
     "@types/compression": "^1.7.1",
