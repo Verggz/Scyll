@@ -1,0 +1,42 @@
+{
+  "itemid": "minecraft:golden_shovel",
+  "displayname": "§6Midas Staff",
+  "nbttag": "{Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Damage: §c+130 \",1:\"§7Strength: §c+150 \",2:\"\",3:\"§7Intelligence: §a+50 \",4:\"\",5:\"§6Ability: Molten Wave §e§lRIGHT CLICK\",6:\"§7Cast a wave of molten gold in\",7:\"§7the direction you are facing!\",8:\"§7Deals up to §c86,752 §7damage.\",9:\"§8Mana Cost: §3500\",10:\"§8Cooldown: §a1s\",11:\"\",12:\"§6Ability: Greed\",13:\"§7The §3ability damage bonus §7of\",14:\"§7this item is dependent on the\",15:\"§7price paid for it at the §5Dark\",16:\"§5Auction§7!\",17:\"§7The maximum bonus of this item\",18:\"§7is §316000 §7if the bid was\",19:\"§7§6100,000,000 Coins §7or higher!\",20:\"\",21:\"§7Price paid: §60 Coins\",22:\"§7Base Ability Damage Bonus: §30\",23:\"\",24:\"§7§8This item can be reforged!\",25:\"§6§lLEGENDARY DUNGEON SWORD\"],Name:\"§6Midas Staff\"},ExtraAttributes:{dungeon_item_level:0,id:\"MIDAS_STAFF\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Damage: §c+130 ",
+    "§7Strength: §c+150 ",
+    "",
+    "§7Intelligence: §a+50 ",
+    "",
+    "§6Ability: Molten Wave §e§lRIGHT CLICK",
+    "§7Cast a wave of molten gold in",
+    "§7the direction you are facing!",
+    "§7Deals up to §c86,752 §7damage.",
+    "§8Mana Cost: §3500",
+    "§8Cooldown: §a1s",
+    "",
+    "§6Ability: Greed",
+    "§7The §3ability damage bonus §7of",
+    "§7this item is dependent on the",
+    "§7price paid for it at the §5Dark",
+    "§5Auction§7!",
+    "§7The maximum bonus of this item",
+    "§7is §316000 §7if the bid was",
+    "§7§6100,000,000 Coins §7or higher!",
+    "",
+    "§7Price paid: §60 Coins",
+    "§7Base Ability Damage Bonus: §30",
+    "",
+    "§7§8This item can be reforged!",
+    "§6§lLEGENDARY DUNGEON SWORD"
+  ],
+  "internalname": "MIDAS_STAFF",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.0.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Midas_Staff"
+  ]
+}

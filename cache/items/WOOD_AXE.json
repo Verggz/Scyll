@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:wooden_axe",
+  "displayname": "§fWooden Axe",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Damage: §c+10\",1:\"\",2:\"§7§8This item can be reforged!\",3:\"§f§lCOMMON AXE\"],Name:\"§fWooden Axe\"},ExtraAttributes:{id:\"WOOD_AXE\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Damage: §c+10",
+    "",
+    "§7§8This item can be reforged!",
+    "§f§lCOMMON AXE"
+  ],
+  "internalname": "WOOD_AXE",
+  "modver": "2.0.0-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "WOOD:1",
+    "A2": "WOOD:1",
+    "A3": "",
+    "B1": "WOOD:1",
+    "B2": "STICK:1",
+    "B3": "",
+    "C1": "",
+    "C2": "STICK:1",
+    "C3": ""
+  },
+  "crafttext": "",
+  "infoType": ""
+}

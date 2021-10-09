@@ -1,0 +1,27 @@
+{
+  "itemid": "minecraft:dye",
+  "displayname": "§9Biofuel",
+  "nbttag": "{ench:[],HideFlags:254,display:{Lore:[0:\"§8Drill Fuel\",1:\"\",2:\"§7§7Adds §2+3,000 Drill Fuel §7to\",3:\"§7a Drill when applied in a Drill\",4:\"§7Anvil.\",5:\"\",6:\"§7§7Talk to a §2Drill Mechanic\",7:\"§2§7to refuel your Drills.\",8:\"§7§7§o100% renewable energy!\",9:\"\",10:\"§9§lRARE\"],Name:\"§9Biofuel\"},ExtraAttributes:{id:\"BIOFUEL\"}}",
+  "damage": 2,
+  "lore": [
+    "§8Drill Fuel",
+    "",
+    "§7§7Adds §2+3,000 Drill Fuel §7to",
+    "§7a Drill when applied in a Drill",
+    "§7Anvil.",
+    "",
+    "§7§7Talk to a §2Drill Mechanic",
+    "§2§7to refuel your Drills.",
+    "§7§7§o100% renewable energy!",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "BIOFUEL",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.0.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Biofuel"
+  ]
+}

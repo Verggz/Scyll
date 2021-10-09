@@ -1,0 +1,20 @@
+{
+  "itemid": "minecraft:quartz",
+  "displayname": "§fSharp Rock",
+  "nbttag": "{ench:[],overrideMeta:1b,HideFlags:254,display:{Lore:[0:\"§7§7A sharp rock with sturdy\",1:\"§7construction.\",2:\"\",3:\"§f§lCOMMON\"],Name:\"§fSharp Rock\"},ExtraAttributes:{id:\"SILEX\"},AttributeModifiers:[]}",
+  "damage": 0,
+  "lore": [
+    "§7§7A sharp rock with sturdy",
+    "§7construction.",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "SILEX",
+  "crafttext": "",
+  "clickcommand": "",
+  "modver": "2.0.0-REL",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Silex"
+  ]
+}

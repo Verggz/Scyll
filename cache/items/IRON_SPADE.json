@@ -1,0 +1,28 @@
+{
+  "itemid": "minecraft:iron_shovel",
+  "displayname": "§fIron Shovel",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Damage: §c+25\",1:\"\",2:\"§f§lCOMMON SHOVEL\"],Name:\"§fIron Shovel\"},ExtraAttributes:{id:\"IRON_SPADE\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Damage: §c+25",
+    "",
+    "§f§lCOMMON SHOVEL"
+  ],
+  "internalname": "IRON_SPADE",
+  "modver": "2.0.0-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "IRON_INGOT:1",
+    "A2": "",
+    "A3": "",
+    "B1": "STICK:1",
+    "B2": "",
+    "B3": "",
+    "C1": "STICK:1",
+    "C2": "",
+    "C3": ""
+  },
+  "crafttext": "",
+  "infoType": ""
+}

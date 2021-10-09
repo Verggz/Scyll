@@ -1,0 +1,30 @@
+{
+  "itemid": "minecraft:fishing_rod",
+  "displayname": "§fFishing Rod",
+  "nbttag": "{HideFlags:254,display:{Lore:[0:\"§7Damage: §c+15\",1:\"§7Stength: §c+5\",2:\"\",3:\"§7§8This item can be reforged!\",4:\"§f§lCOMMON ROD\"],Name:\"§fFishing Rod\"},ExtraAttributes:{id:\"FISHING_ROD\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Damage: §c+15",
+    "§7Stength: §c+5",
+    "",
+    "§7§8This item can be reforged!",
+    "§f§lCOMMON ROD"
+  ],
+  "internalname": "FISHING_ROD",
+  "modver": "2.0.0-REL",
+  "vanilla": true,
+  "clickcommand": "viewrecipe",
+  "recipe": {
+    "A1": "",
+    "A2": "",
+    "A3": "STICK:1",
+    "B1": "",
+    "B2": "STICK:1",
+    "B3": "STRING:1",
+    "C1": "STICK:1",
+    "C2": "",
+    "C3": "STRING:1"
+  },
+  "crafttext": "",
+  "infoType": ""
+}
