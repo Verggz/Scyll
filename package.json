@@ -35,7 +35,7 @@
     "@google-cloud/firestore": "^4.13.2",
     "@google-cloud/storage": "^5.13.0",
     "@top-gg/sdk": "^3.1.0",
-    "axios": "^0.21.1",
+    "axios": ">=0.21.2",
     "body-parser": "^1.19.0",
     "chart.js": "^2.9.4",
     "chartjs-node-canvas": "^3.2.0",
