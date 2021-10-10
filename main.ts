@@ -10,22 +10,8 @@ import NitrateRouter from './routes/nitrate/NitrateRouter.router';
 import ModRouter from './routes/mod/ModRouter.router';
 import BotRouter from './routes/bot/BotRouter.router';
 import { BinUtil } from './hypixel/util/BinUtil.hypixel';
-import axios from 'axios';
+
 var app : Express = express();
-
-import registrydb from './db/BetaRegistryDatabase.db';
-
-async function updateregisters(){
-    var alldocs = await registrydb.GetAllDocuments();
-
-    if(alldocs){
-        for(var i = 0; i < alldocs.length; i++){
-            registrydb.SetDocument(alldocs[i].id,{"settings":{"ahprofit":100000,"binprofit":100000,"ahenabled":false,"binenabled":true}},{"merge":true})
-        }
-    }
-}
-//updateregisters();
-var main: boolean = true;
 
 app.use(rateLimit({"windowMs":5*60*1000,"max":75}));
 app.use(express.json({'limit':'5mb'}));
@@ -109,14 +95,3 @@ setIntervalAsync(async () =>{
         })
         //console.log(res);
     });
-
-
-
-
-//let startTime: number = 0;
-//setInterval(function() {
-//    if (startTime == 0) {
-//        startTime = Date.now();
-//    }
-//    console.log((Date.now() - startTime) / 1000);
-//}, 100)

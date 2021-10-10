@@ -52,27 +52,6 @@ var ModRouter_router_1 = __importDefault(require("./routes/mod/ModRouter.router"
 var BotRouter_router_1 = __importDefault(require("./routes/bot/BotRouter.router"));
 var BinUtil_hypixel_1 = require("./hypixel/util/BinUtil.hypixel");
 var app = express_1.default();
-var BetaRegistryDatabase_db_1 = __importDefault(require("./db/BetaRegistryDatabase.db"));
-function updateregisters() {
-    return __awaiter(this, void 0, void 0, function () {
-        var alldocs, i;
-        return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0: return [4 /*yield*/, BetaRegistryDatabase_db_1.default.GetAllDocuments()];
-                case 1:
-                    alldocs = _a.sent();
-                    if (alldocs) {
-                        for (i = 0; i < alldocs.length; i++) {
-                            BetaRegistryDatabase_db_1.default.SetDocument(alldocs[i].id, { "settings": { "ahprofit": 100000, "binprofit": 100000, "ahenabled": false, "binenabled": true } }, { "merge": true });
-                        }
-                    }
-                    return [2 /*return*/];
-            }
-        });
-    });
-}
-//updateregisters();
-var main = true;
 app.use(express_rate_limit_1.default({ "windowMs": 5 * 60 * 1000, "max": 75 }));
 app.use(express_1.default.json({ 'limit': '5mb' }));
 app.use(express_1.default.urlencoded({ 'extended': true, 'limit': '5mb', 'parameterLimit': 500000 }));
@@ -158,10 +137,3 @@ AuctionUtil_hypixel_1.AuctionUtil.GetAllAuctionsEnded().then(function (res) {
     });
     //console.log(res);
 });
-//let startTime: number = 0;
-//setInterval(function() {
-//    if (startTime == 0) {
-//        startTime = Date.now();
-//    }
-//    console.log((Date.now() - startTime) / 1000);
-//}, 100)

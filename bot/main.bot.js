@@ -16,8 +16,6 @@ const VoteCommand = require('./commands/VoteCommand.command');
 const ModCommand = require('./commands/slash/ModCommand.slash');
 const SlashCommand = require('./model/SlashCommand.model');
 const HelpSCommand = require('./commands/slash/HelpSCommand.slash');
-const SlashCommandTemp = require('./model/TempSlashCommand.model');
-const { AutoPoster } = require('topgg-autoposter');
 const AhFlipSCommand = require('./commands/slash/flip/AhFlipSCommand.slash');
 const StatsCommand = require('./commands/StatsCommand.command');
 const BinSnipeCommand = require('./commands/flip/bin/BinSnipe.command');
@@ -56,12 +54,7 @@ client.on('ready',async ()=>{
             count += guild.memberCount;
             console.log(`${guild.name},${guild.id} | ${guild.memberCount}`);
         });
-            //const poster = AutoPoster('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijg3NjgzMzk0MzE5Mjc2NDUwNyIsImJvdCI6dHJ1ZSwiaWF0IjoxNjI5OTU5NzEzfQ.C5Vp-pBa3u9cUzZw73yBwhxlwqQiDgG4WVv2Y0bZhHQ', client);
-            //poster.on("posted",(stats) =>{
-            //  console.log(`Posted stats to Top.gg | ${stats.serverCount} servers and ${stats.shardCount} shards`)
-            //}) // your discord.js or eris client
 
-            //eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0IjoxLCJpZCI6IjgxNDcwMjQ3MTk2NDEzMTMyOCIsImlhdCI6MTYxODcxNDEyNn0.sljwmHIFTLvZ7ELB7sGKjZeAEjZZE2580umb9uWDmUQ
             await client.user.setActivity({"type":"STREAMING",name:`!help`,"url":"https://www.twitch.tv/penguindetox"})
             console.log(`Logged in as ${client.user.tag}`);
             console.log(client.guilds.cache.size);
@@ -87,26 +80,9 @@ client.on('ready',async ()=>{
       .setRequired(true));
       
       SlashCommand.CreateSlashCommands([registercommandbuilder,helpcommandbuilder,ahflipcommandbuilder,modcommandbuilder])
-
-     // SlashCommandTemp.createCommand("866485769748348968","866485146600341505","ODY2NDg1NzY5NzQ4MzQ4OTY4.YPTPwg.u8mIz8YIKfIDgfPSjlcXMf6CjHo","register","Register for open beta access to Project: Hyperion.",[
-        //{
-        //    "name":"ign",
-        //    "description":"Your minecraft username.",
-        //    "type":3,
-        //    "required":true
-        //}
-    //]);
         await client.user.setActivity({"type":"STREAMING",name:"/register","url":"https://www.twitch.tv/penguindetox"})
     }
 
-    //client.channels.cache.get("872024626253938728").send("**Bazaar: **")
-
-    //console.log(commands)
-    //axios.default.delete("https://discord.com/api/v8/applications/866485769748348968/guilds/866485146600341505/commands/866486711932813332",{"headers":{
-    //    "Authorization": "Bot ODY2NDg1NzY5NzQ4MzQ4OTY4.YPTPwg.u8mIz8YIKfIDgfPSjlcXMf6CjHo"
-    //}}).then(res =>{
-    //    console.log(res.data);
-    //})
 
 
 
