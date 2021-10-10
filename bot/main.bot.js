@@ -186,12 +186,7 @@ client.on('messageCreate',async function(msg){
     if(!msg.guild) return;
 
     if(!msg.content.startsWith(mainprefix)) return;
-
-
-    if(msg.author.id == "316543513087180811"){
-
-    }
-    if(msg.channel.id != "866578903610032138" && msg.guild.me.permissionsIn(msg.channel).has("SEND_MESSAGES") && msg.guild.me.permissionsIn(msg.channel).has("VIEW_CHANNEL")){
+    if(msg.guild.me.permissionsIn(msg.channel).has("SEND_MESSAGES") && msg.guild.me.permissionsIn(msg.channel).has("VIEW_CHANNEL")){
       new MarketMainpulationCommand(mainprefix,msg);
       new FindDayBazaarCommand(mainprefix,msg);
       new MarginBookFlipCommand(mainprefix,msg);
