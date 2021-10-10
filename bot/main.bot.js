@@ -104,19 +104,6 @@ client.on('interactionCreate',async interaction =>{
 
 client.on('guildCreate',async (guild) =>{
     var found = false;
-    //console.log(guild.members.cache.size);
-    //guild.members.fetch().then(cache =>{
-    //  cache.forEach(function(user,id){
-    //    console.log(user);
-    //    http.post('http://localhost:3000/api/v1/users/signup',{id:user.id,username:user.user.username})
-    //    .then(res =>{
-    //      if(res.data.status == 'success'){
-    //        console.log("yes");
-    //      }
-    //    });
-    //  });
-    //client.user.setActivity({type:"STREAMING",name:`pn help | ${count + 530} Penguins Building Their Penguin Paradise 🏝️`,url:'https://www.twitch.tv/geticebergbot'});
-    //});
 
 
     //await client.user.setActivity({"type":"STREAMING",name:`!help | !update`,"url":"https://www.twitch.tv/penguindetox"})
@@ -130,14 +117,6 @@ client.on('guildCreate',async (guild) =>{
       if(guild.me.permissionsIn(channel).has("SEND_MESSAGES") && guild.me.permissionsIn(channel).has("VIEW_CHANNEL")) {
         found = true;
         count += guild.memberCount;
-        //client.users.cache.get(316543513087180811).createDM().then(msg =>{
-        //
-        //  msg.send(`**New Server**\n id:**${guild.id}**\n name:**${guild.name}** \n server count: **${client.guilds.cache.size}**`);
-        //});
-        //http.post()
-        //{count + 530} Penguins Building Their Penguin Paradise 🏝️`
-
-        //client.user.setActivity({type:"STREAMING",name:`pn help | v0.0.3-04 🏝️`,url:'https://www.twitch.tv/geticebergbot'});
 
 
 
